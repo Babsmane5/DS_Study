@@ -1,0 +1,4 @@
+WARN YarnScheduler: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
+ Solution:
+	$ yarn application -list 
+	$ yarn application -kill $application_id
